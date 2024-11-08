@@ -3,7 +3,7 @@ Sample system of trx reconciliation written in Go
 
 
 # Notes
-- Code written using clean architecture, testing would be really easy using dependency injection / mocking on interfaces
+- Code written using clean architecture, testing would be really easy using dependency injection / mocking on interfaces & introduce another bank would be lot easier for scalability
 - Transaction ID will have this pattern:
     [1-4 UNIQUE BANK CODE][5-36 TRX UUID]
 - As for MVP service, all csv data will be load in memory
